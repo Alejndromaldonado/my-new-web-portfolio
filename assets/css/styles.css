@@ -147,7 +147,7 @@ img {
   left: 0;
   right: 0;
   background-color: hsla(0,0%,98%,.1);
-  /* width: 88px; */
+  width: 88px;
   margin-inline: auto;
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
@@ -549,13 +549,6 @@ img {
   color: var(--text-color);
 }
 
-
-
-
-
-
-
-
 /*=============== CONTACT ===============*/
 .contact__group,
 .contact__form{
@@ -940,7 +933,4 @@ img {
   .scrollup{
     right: 4rem;
   }
-
-
-
 }

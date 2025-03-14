@@ -14,11 +14,11 @@ const sendEmail = (e) =>{
 
         // Remove message after five seconds
         setTimeout(() =>{
-            contactMessage.textContect = ''
+            contactMessage.textContent = ''
         }, 5000)
 
         // Clear input fields
-        contactForm.requestFullscreen()
+        // contactForm.requestFullscreen()
 
     }, () =>{
         // Show error message
