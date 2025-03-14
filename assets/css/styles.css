@@ -691,13 +691,14 @@ img {
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
-@media screen and (max-width: 320px){
+@media screen and (max-width: 540px){
   .container{
     margin-inline: 1rem;
   }
 
   .nav{
     padding: 1rem;
+    width: max-content;
   }
 }
 /* For medium devices */
@@ -707,6 +708,12 @@ img {
   }
   .nav__list{
     column-gap: 1.25rem;
+  }
+  .perfil__img{
+    position: relative;
+  }
+  .perfil__data{
+    transform: translateY(-6.5rem);
   }
 
   .home__container,
@@ -728,6 +735,12 @@ img {
   }
   .perfil{
     height: 100%;
+  }
+  .perfil__img{
+    position: absolute;
+  }
+  .perfil__data{
+    transform: translateY(0.5rem);
   }
   
   .projects__container,
@@ -770,7 +783,10 @@ img {
   .container{
     margin-inline: auto;
   }
-
+  .perfil__img{
+    width: 600px;
+    position: absolute;
+  }
 
   .section{
     padding-block: 3rem 4rem;
