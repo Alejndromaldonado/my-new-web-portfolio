@@ -261,6 +261,18 @@ img {
   margin-bottom: 2rem;
   padding-top: 1rem;
 }
+.info__description,
+.about__description, 
+.blog__description,
+.skills__description,
+.about__note,
+.experience__description,
+.projects__description,
+.services__description,
+.blog__name{
+  text-align: justify;
+}
+
 .info .button{
   width: 100%;
 }
